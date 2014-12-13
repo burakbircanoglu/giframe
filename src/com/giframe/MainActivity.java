@@ -1151,8 +1151,6 @@ public class MainActivity extends Activity{
 			GoogleAnalytics.getInstance(this).reportActivityStart(this);
 			
 			
-			
-			
 			super.onStart();
 		}
 		@Override
