@@ -1,0 +1,42 @@
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0D2D1"
+    tools:context="com.giframe.HelpActivity" 
+   >
+    <TextView android:text="Instructions"
+        android:id="@+id/ins"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"
+        
+        
+        android:textSize="30sp"/>
+		<ListView 
+		    android:id="@+id/list"
+		    android:layout_below="@+id/ins"
+		    android:layout_marginTop="30dp"
+		    android:layout_height="wrap_content"
+		    android:layout_width="fill_parent"
+		    android:dividerHeight="1dp"
+		    android:background="@drawable/image_xml"
+		    android:divider="#D0D2D1"
+		    
+		    
+		    >
+		  
+	    
+	    
+	    
+		</ListView>
+	    
+	
+    
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   <ImageButton 
+       android:id="@+id/help"
+       android:layout_height="60dp"
+       android:layout_width="60dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:background="@drawable/help"
+       android:contentDescription="@string/desc"
+       >
+       
+       
+       
+   </ImageButton>
+       <LinearLayout 
+           android:id="@+id/upperLinearLayout"
+           android:layout_height="fill_parent"
+           android:layout_width="fill_parent"
+           android:orientation="horizontal"
+           android:contentDescription="@string/desc"
+           android:background="@color/abc_search_url_text_normal"
+           >
+           
+           
+           
+       </LinearLayout>
+		
+   <RelativeLayout
+       android:id="@+id/cameraHolder"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_below="@+id/upperLinearLayout"
+       android:background="#000000"
+       android:padding="2dp" 
+       >
+	
+		<ImageButton 
+		    android:id="@+id/switcher"
+		    android:layout_marginTop="11dp"
+		    android:layout_marginRight="11dp"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:contentDescription="@string/desc"
+		    android:background="@drawable/switchcamera"
+		    android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			
+			
+			/>
+		<ImageButton 
+		    android:id="@+id/styleButton"
+		    android:layout_marginTop="11dp"
+		    android:layout_marginRight="11dp"
+		    android:layout_width="50dp"
+		    android:layout_height="50dp"
+		    android:contentDescription="@string/desc"
+		    android:background="@drawable/stylebutton"
+		    android:layout_alignParentTop="true"
+			android:layout_alignParentRight="true"
+			android:visibility="invisible"
+			/>
+		<ImageButton 
+		    android:id="@+id/saveButton"
+		    android:layout_marginTop="10dp"
+		    android:layout_marginLeft="10dp"
+		    android:layout_width="50dp"
+		    android:visibility="invisible"
+		    android:layout_height="50dp"
+		    android:contentDescription="@string/desc"
+		    android:background="@drawable/savebutton"
+		   android:layout_below="@+id/modeChanger"
+			/>
+		<ImageButton 
+		    	android:id="@+id/add"
+               android:layout_height="50dp"
+               android:layout_width="50dp"
+               android:layout_marginTop="10dp"
+               android:layout_centerHorizontal="true"
+               android:background="@drawable/addbutton"
+               android:contentDescription="@string/desc"
+               />
+		 <Button 
+           android:id="@+id/modeChanger"
+           android:layout_height="64dp"
+           android:layout_width="64dp"
+           android:background="@drawable/cameraswitch"
+           android:contentDescription="@string/desc"
+           android:layout_marginLeft="10dp"
+           android:layout_marginTop="10dp"
+           /> 
+           
+	</RelativeLayout>
+
+</RelativeLayout>
