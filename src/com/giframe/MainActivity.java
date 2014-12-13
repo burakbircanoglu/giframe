@@ -1149,6 +1149,10 @@ public class MainActivity extends Activity{
 		protected void onStart() {
 			// TODO Auto-generated method stub
 			GoogleAnalytics.getInstance(this).reportActivityStart(this);
+			
+			
+			
+			
 			super.onStart();
 		}
 		@Override
